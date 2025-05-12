@@ -7,4 +7,5 @@ Key Features:
 - Message frequency over time
 - Other key communication metrics
 With visually engaging insights, this tool enables users to understand group dynamics, detect behavioral trends, and explore meaningful patterns in WhatsApp conversations.
+Tech Stack Used: Python,Pandas,NLP,Matplotlib,Seaborn,Streamlit
 
