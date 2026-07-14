@@ -14,7 +14,7 @@ def fetch_stats(selected_user,df):
     # fetch the number of messages
     num_messages = df.shape[0]
 
-    # fetch the total number of words
+    # fetch the total number of words.
     words = []
     for message in df['message']:
         words.extend(message.split())
