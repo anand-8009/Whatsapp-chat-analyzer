@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.set_page_config(page_title="WhatsApp Chat Analyzer", page_icon="💬")
-st.set_option("deprecation.showPyplotGlobalUse", False)
 
 st.markdown(
     """
