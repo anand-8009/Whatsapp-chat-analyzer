@@ -23,12 +23,23 @@ st.markdown(
         box-shadow: 0 8px 24px rgba(18, 140, 126, 0.18);
     }
     .info-card {
-        background: white;
+        background: #ffffff;
+        color: #111827;
         border: 1px solid #e5e7eb;
         border-radius: 14px;
         padding: 1rem 1.2rem;
         margin-bottom: 1rem;
         box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+    }
+    [data-testid="stAppViewContainer"] {
+        color: inherit;
+    }
+    [data-testid="stSidebar"] .st-bd,
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] .st-cb,
+    [data-testid="stSidebar"] .st-emotion-cache-1x8xg4s {
+        color: #111827;
     }
     div[data-testid="stSidebar"] {
         background: #f8fafc;
@@ -67,8 +78,8 @@ if uploaded_file is None:
     st.markdown(
         """
         <div class="info-card">
-            <h3>Start analyzing your chat</h3>
-            <ul>
+            <h3 style="color: #111827;">Start analyzing your chat</h3>
+            <ul style="color: #111827; margin-top: 0.5rem;">
                 <li>See daily and monthly activity trends</li>
                 <li>Find the busiest users and time periods</li>
                 <li>Explore word frequency and emoji patterns</li>
